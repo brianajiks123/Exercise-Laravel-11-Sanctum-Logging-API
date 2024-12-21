@@ -26,31 +26,31 @@ RESTful API for basic todolist using Sanctum API. For now, this project is still
 Clone the project
 
 ```bash
-  git clone https://github.com/brianajiks123/Exercise-Laravel-11-Sanctum-Logging-API.git
+git clone https://github.com/brianajiks123/Exercise-Laravel-11-Sanctum-Logging-API.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Exercise-Laravel-11-Sanctum-Logging-API
+cd Exercise-Laravel-11-Sanctum-Logging-API
 ```
 
 Install Dependencies (Laravel)
 
 ```bash
-  composer install
+composer install
 ```
 
 Migrate Database (make sure already setup your environment in the .env file)
 
 ```bash
-  php artisan migrate
+php artisan migrate
 ```
 
 Running Development
 
 ```bash
-  php artisan serve
+php artisan serve
 ```
 
 
@@ -82,7 +82,7 @@ Headers:
 #### Register
 
 ```http
-  POST /api/v1/register
+POST /api/v1/register
 ```
 
 | Body                 | Type       | Description                       |
@@ -94,7 +94,7 @@ Headers:
 #### Login
 
 ```http
-  POST /api/v1/login
+POST /api/v1/login
 ```
 
 | Body                 | Type       | Description                       |
@@ -108,7 +108,7 @@ Authorization:
 - Bearer Token: auth token
 
 ```http
-  GET /api/v1/user
+GET /api/v1/user
 ```
 
 #### Logout
@@ -117,7 +117,7 @@ Authorization:
 - Bearer Token: auth token
 
 ```http
-  POST /api/v1/logout
+POST /api/v1/logout
 ```
 
 ### CRUD Todolist
@@ -128,7 +128,7 @@ Authorization:
 #### Add Todo
 
 ```http
-  POST /api/v1/todo
+POST /api/v1/todo
 ```
 
 | Body                 | Type      | Description                           |
@@ -140,13 +140,13 @@ Authorization:
 #### Get Todolist
 
 ```http
-  GET /api/v1/todos
+GET /api/v1/todos
 ```
 
 #### Get Spesific Todo
 
 ```http
-  GET /api/v1/todo/{id}
+GET /api/v1/todo/{id}
 ```
 
 | Params                 | Type      | Description                |
@@ -156,7 +156,7 @@ Authorization:
 #### Update Todo
 
 ```http
-  PUT /api/v1/todo/{id}
+PUT /api/v1/todo/{id}
 ```
 
 | Params                 | Type      | Description                |
@@ -172,7 +172,7 @@ Authorization:
 #### Delete Todo
 
 ```http
-  PUT /api/v1/todo/{id}
+PUT /api/v1/todo/{id}
 ```
 
 | Params                 | Type      | Description                |
