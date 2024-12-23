@@ -18,7 +18,6 @@ RESTful API for basic todolist using Sanctum API. For now, this project is still
 ## Screenshots
 
 ![App Screenshot](./Documentation/Login.png)
-![App Screenshot](./Documentation/Add%20Todo.png)
 
 
 ## Run Locally
